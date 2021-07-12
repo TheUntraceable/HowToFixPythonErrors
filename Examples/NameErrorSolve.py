@@ -1,8 +1,9 @@
 # Got code raising NameError? Does your code look like
+
 print(a)
 
 # Then do something like this!
-a = "Hello World!"
+a = "Hello World!" # This can be anything apart from an undefined variable.
 
 print(a)
 
