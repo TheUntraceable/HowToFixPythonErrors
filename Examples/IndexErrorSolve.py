@@ -6,4 +6,4 @@ print(some_list[3])
 # then do something like this
 
 some_list = ['h','good','error']
-print(some_list[2])
+print(some_list[2]) # Keep in mind indexes start at 0
