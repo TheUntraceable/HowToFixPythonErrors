@@ -31,3 +31,12 @@
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
     - Note that using both tabs and spaces when indenting will raise TabError. stick to either spaces or tabs, not both
+
+4. **ImportError**
+    - This specific error is raised when you try to import a module that is not installed / doesnt exist.
+
+    -  To fix it, search in [pypi.org](https://pypi.org) and see if it actually exists, and install it
+
+       > -  **First, make sure you dont have anyy spelling mistakes in the import statement**
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
