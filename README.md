@@ -35,8 +35,23 @@
 4. **ImportError**
     - This specific error is raised when you try to import a module that is not installed / doesnt exist.
 
-    -  To fix it, search in [pypi.org](https://pypi.org) and see if it actually exists, and install it
+    - To fix it, search in [pypi.org](https://pypi.org) and see if it actually exists, and install it
 
-       > -  **First, make sure you dont have anyy spelling mistakes in the import statement**
+       > - **First, make sure you dont have anyy spelling mistakes in the import statement**
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+5. **KeyError**
+    - This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
+
+    - To fix this,
+
+        1. make sure you have no spelling error in the key name
+
+        2. Add the key when creating the dict
+
+        3. If the above is not possible, try adding the key manually
+
+        4. If adding the key is not a choice, avoid the error by using  [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get) which would return None if not found
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
