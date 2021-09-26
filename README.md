@@ -2,8 +2,6 @@
 
 **This repo will contain a README with an explanation as to why the error is happening and how to fix it.**
 
--
-
 1. **NameError**
 
     - This error is usually occuring because you haven't defined the variable and are just using it.
@@ -22,3 +20,14 @@
         > - **Note. in python counts from 0 therefore one will be 0, two will be 1, three will be 2 and so on.**
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+3. **IndentationError**
+    - This error occurs when the code expects an indent or you indented a line too much than expected.
+
+    - To fix it, get everything under a `:` in the same indent
+
+        > - **Note: lines below a `:` need to be indented. If there is no `:` in the line above then it should be in the same indentation level as the line above**
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Note that using both tabs and spaces when indenting will raise TabError. stick to either spaces or tabs, not both
