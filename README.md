@@ -38,7 +38,7 @@
 
     - Official Documentation of [IndentationError](https://docs.python.org/3/library/exceptions.html#IndentationError)
 
-4. **ImportError**
+4. **ModuleNotFoundError**
     - This specific error is raised when you try to import a module that is not installed / doesnt exist.
 
     - To fix it, search in [pypi.org](https://pypi.org) and see if it actually exists, and install it
@@ -47,7 +47,7 @@
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
-    - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError)
+    - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
 
 5. **KeyError**
     - This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
@@ -96,3 +96,12 @@
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
     - Official Documentation of [UnboundLocalError](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
+
+9. **RecursionError**
+    - Recursion error is raised when the maximum recursion depth AKA [`sys.getrecursionlimit`](https://docs.python.org/3/library/sys.html#sys.getrecursionlimit) exceeds
+
+    - To fix it, add a base case to return early and not do any more recursion
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Official Documentation of [RecursionError](https://docs.python.org/3/library/exceptions.html#RecursionError)
