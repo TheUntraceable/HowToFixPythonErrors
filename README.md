@@ -87,3 +87,12 @@
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
     - Official Documentation of [AttributeError](https://docs.python.org/3/library/exceptions.html#AttributeError)
+
+8. **UnboundLocalError**
+    - This is raised when you reference a variable inside a function or method but no value is bound to that variable
+
+    - To fix it, see if you are using it before assigning something to it
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Official Documentation of [UnboundLocalError](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
