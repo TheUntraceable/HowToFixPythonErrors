@@ -10,7 +10,7 @@
 
         > - **Note. You mustn't define VariableName as another non existant variable. This will get you back to step one.**
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/NameErrorSolve.py)
 
     - Official Documentation of [NameError](https://docs.python.org/3/library/exceptions.html#NameError)
 
@@ -21,7 +21,7 @@
 
         > - **Note. in python counts from 0 therefore one will be 0, two will be 1, three will be 2 and so on.**
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/IndexErrorSolve.py)
 
     - Official Documentation of [IndexError](https://docs.python.org/3/library/exceptions.html#IndexError)
 
@@ -32,7 +32,7 @@
 
         > - **Note: lines below a `:` need to be indented. If there is no `:` in the line above then it should be in the same indentation level as the line above**
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/IndentationErrorSolve.py)
 
     - Note that using both tabs and spaces when indenting will raise TabError. stick to either spaces or tabs, not both
 
@@ -45,7 +45,7 @@
 
        > - **First, make sure you dont have any spelling mistakes in the import statement**
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/ModuleNotFoundErrorSolve.py)
 
     - Official Documentation of [ModuleNotFoundError](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
 
@@ -62,7 +62,7 @@
 
         - If adding the key is not a choice, avoid the error by using  [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get) which would return None if not found
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/KeyErrorSolve.py)
 
     - Official Documentation of [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError)
 
@@ -73,7 +73,7 @@
 
     - To fix this, use an if statement to check if the number is 0 and dont divide if it is.
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/ZeroDivisionErrorSolve.py)
 
     - Official Documentation of [ZeroDivisionError](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
 
@@ -84,7 +84,7 @@
 
     - To fix this, check for spelling errors and see if that attribute actually exists
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/AttributeErrorSolve.py)
 
     - Official Documentation of [AttributeError](https://docs.python.org/3/library/exceptions.html#AttributeError)
 
@@ -93,7 +93,7 @@
 
     - To fix it, see if you are using it before assigning something to it
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/UnboundLocalErrorSolve.py)
 
     - Official Documentation of [UnboundLocalError](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
 
@@ -102,7 +102,7 @@
 
     - To fix it, add a base case to return early and not do any more recursion
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/RecursionErrorSolve.py)
 
     - Official Documentation of [RecursionError](https://docs.python.org/3/library/exceptions.html#RecursionError)
 
@@ -111,6 +111,6 @@
 
     - To fix it, check for spelling errors. Also check if the module exists by checking the relevent documentation
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/ImportErrorSolve.py)
 
     - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError)
