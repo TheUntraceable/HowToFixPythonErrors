@@ -76,3 +76,14 @@
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
     - Official Documentation of [ZeroDivisionError](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
+
+7. **AttributeError**
+    - AttributeError is raised when you try to access an attribute of an object that doesnt exist.
+
+    - Fixing this error needs a proper understanding of classes and attributes.
+
+    - To fix this, check for spelling errors and see if that attribute actually exists
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Official Documentation of [AttributeError](https://docs.python.org/3/library/exceptions.html#AttributeError)
