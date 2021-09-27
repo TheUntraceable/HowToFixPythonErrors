@@ -47,7 +47,7 @@
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
-    - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
+    - Official Documentation of [ModuleNotFoundError](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
 
 5. **KeyError**
     - This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
@@ -105,3 +105,12 @@
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
     - Official Documentation of [RecursionError](https://docs.python.org/3/library/exceptions.html#RecursionError)
+
+10. **ImportError**
+    - Is raised when the “from list” in `from ... import` has a name that cannot be found.
+
+    - To fix it, check for spelling errors. Also check if the module exists by checking the relevent documentation
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError)
