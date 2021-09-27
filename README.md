@@ -12,6 +12,8 @@
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
+    - Official Documentation of [NameError](https://docs.python.org/3/library/exceptions.html#NameError)
+
 2. **IndexError**
     - This error is usually raised when attempting to retrieve an index from a sequence and the index isn't found in the sequence.
 
@@ -20,6 +22,8 @@
         > - **Note. in python counts from 0 therefore one will be 0, two will be 1, three will be 2 and so on.**
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Official Documentation of [IndexError](https://docs.python.org/3/library/exceptions.html#IndexError)
 
 3. **IndentationError**
     - This error occurs when the code expects an indent or you indented a line too much than expected.
@@ -32,6 +36,8 @@
 
     - Note that using both tabs and spaces when indenting will raise TabError. stick to either spaces or tabs, not both
 
+    - Official Documentation of [IndentationError](https://docs.python.org/3/library/exceptions.html#IndentationError)
+
 4. **ImportError**
     - This specific error is raised when you try to import a module that is not installed / doesnt exist.
 
@@ -41,20 +47,24 @@
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
+    - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError)
+
 5. **KeyError**
     - This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
 
     - To fix this,
 
-        1. make sure you have no spelling error in the key name
+        - make sure you have no spelling error in the key name
 
-        2. Add the key when creating the dict
+        - Add the key when creating the dict
 
-        3. If the above is not possible, try adding the key manually
+        - If the above is not possible, try adding the key manually
 
-        4. If adding the key is not a choice, avoid the error by using  [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get) which would return None if not found
+        - If adding the key is not a choice, avoid the error by using  [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get) which would return None if not found
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Official Documentation of [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError)
 
 6. **ZeroDivisionError**
     - The error is kind of self-explanatory. You tried to divide something by 0 which is impossible.
@@ -64,3 +74,5 @@
     - To fix this, use an if statement to check if the number is 0 and dont divide if it is.
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+    - Official Documentation of [ZeroDivisionError](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
