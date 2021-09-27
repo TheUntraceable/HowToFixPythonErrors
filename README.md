@@ -37,7 +37,7 @@
 
     - To fix it, search in [pypi.org](https://pypi.org) and see if it actually exists, and install it
 
-       > - **First, make sure you dont have anyy spelling mistakes in the import statement**
+       > - **First, make sure you dont have any spelling mistakes in the import statement**
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
 
@@ -53,5 +53,14 @@
         3. If the above is not possible, try adding the key manually
 
         4. If adding the key is not a choice, avoid the error by using  [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get) which would return None if not found
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
+
+6. **ZeroDivisionError**
+    - The error is kind of self-explanatory. You tried to divide something by 0 which is impossible.
+
+    - This usually happens when you divide something with a user input and the user inputs 0.
+
+    - To fix this, use an if statement to check if the number is 0 and dont divide if it is.
 
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/tree/main/Examples)
