@@ -114,3 +114,21 @@
     - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/ImportErrorSolve.py)
 
     - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError)
+
+11. **TypeError**
+    - Raised when an operation or function is applied to an object of inappropriate type.
+
+    - To fix it, read the relevant documentation and find which type of object you should be passing in.
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/TypeErrorSolve.py)
+
+    - Official Documentation of [TypeError](https://docs.python.org/3/library/exceptions.html#TypeError)
+
+12. **ValueError**
+    - Raised when an operation or function receives an argument that has the right type but an inappropriate value
+
+    - To fix it, read the relevant documentation and see which kind of value is accepted.
+
+    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/ValueErrorSolve.py)
+
+    - Official Documentation of [TypeError](https://docs.python.org/3/library/exceptions.html#ValueError)
