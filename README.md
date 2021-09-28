@@ -132,3 +132,12 @@
     - Examples can be found in [`/Examples`](./Examples/ValueErrorSolve.py)
 
     - Official Documentation of [`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError)
+
+13. **StopIteration**
+    - This exception is raised to signal that there are no further items produced by the iterator or the generator is [`closed`](https://docs.python.org/3/reference/expressions.html#generator.close)
+
+    - This is not fixable. You would have to create a new generator object in order to bypass this
+
+    - Examples can be found in [`/Examples`](./Examples/StopIterationSolve.py)
+
+    - Official Documentation of [`StopIteration`](https://docs.python.org/3/library/exceptions.html#StopIteration)
