@@ -129,6 +129,6 @@
 
     - To fix it, read the relevant documentation and see which kind of value is accepted.
 
-    - Examples can be found in [`./Examples`](https://github.com/TheUntraceable/HowToFixPythonErrors/blob/main/Examples/ValueErrorSolve.py)
+    - Examples can be found in [`./Examples`](./Examples/ValueErrorSolve.py)
 
-    - Official Documentation of [TypeError](https://docs.python.org/3/library/exceptions.html#ValueError)
+    - Official Documentation of [ValueError](https://docs.python.org/3/library/exceptions.html#ValueError)
