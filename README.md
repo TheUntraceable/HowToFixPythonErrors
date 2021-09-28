@@ -12,7 +12,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/NameErrorSolve.py)
 
-    - Official Documentation of [NameError](https://docs.python.org/3/library/exceptions.html#NameError)
+    - Official Documentation of [`NameError`](https://docs.python.org/3/library/exceptions.html#NameError)
 
 2. **IndexError**
     - This error is usually raised when attempting to retrieve an index from a sequence and the index isn't found in the sequence.
@@ -23,7 +23,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/IndexErrorSolve.py)
 
-    - Official Documentation of [IndexError](https://docs.python.org/3/library/exceptions.html#IndexError)
+    - Official Documentation of [`IndexError`](https://docs.python.org/3/library/exceptions.html#IndexError)
 
 3. **IndentationError**
     - This error occurs when the code expects an indent or you indented a line too much than expected.
@@ -36,7 +36,7 @@
 
     - Note that using both tabs and spaces when indenting will raise TabError. stick to either spaces or tabs, not both
 
-    - Official Documentation of [IndentationError](https://docs.python.org/3/library/exceptions.html#IndentationError)
+    - Official Documentation of [`IndentationError`](https://docs.python.org/3/library/exceptions.html#IndentationError)
 
 4. **ModuleNotFoundError**
     - This specific error is raised when you try to import a module that is not installed / doesnt exist.
@@ -47,7 +47,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/ModuleNotFoundErrorSolve.py)
 
-    - Official Documentation of [ModuleNotFoundError](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
+    - Official Documentation of [`ModuleNotFoundError`](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
 
 5. **KeyError**
     - This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
@@ -64,7 +64,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/KeyErrorSolve.py)
 
-    - Official Documentation of [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError)
+    - Official Documentation of [`KeyError`](https://docs.python.org/3/library/exceptions.html#KeyError)
 
 6. **ZeroDivisionError**
     - The error is kind of self-explanatory. You tried to divide something by 0 which is impossible.
@@ -75,7 +75,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/ZeroDivisionErrorSolve.py)
 
-    - Official Documentation of [ZeroDivisionError](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
+    - Official Documentation of [`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
 
 7. **AttributeError**
     - AttributeError is raised when you try to access an attribute of an object that doesnt exist.
@@ -86,7 +86,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/AttributeErrorSolve.py)
 
-    - Official Documentation of [AttributeError](https://docs.python.org/3/library/exceptions.html#AttributeError)
+    - Official Documentation of [`AttributeError`](https://docs.python.org/3/library/exceptions.html#AttributeError)
 
 8. **UnboundLocalError**
     - This is raised when you reference a variable inside a function or method but no value is bound to that variable
@@ -95,7 +95,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/UnboundLocalErrorSolve.py)
 
-    - Official Documentation of [UnboundLocalError](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
+    - Official Documentation of [`UnboundLocalError`](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
 
 9. **RecursionError**
     - Recursion error is raised when the maximum recursion depth AKA [`sys.getrecursionlimit`](https://docs.python.org/3/library/sys.html#sys.getrecursionlimit) exceeds
@@ -104,7 +104,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/RecursionErrorSolve.py)
 
-    - Official Documentation of [RecursionError](https://docs.python.org/3/library/exceptions.html#RecursionError)
+    - Official Documentation of [`RecursionError`](https://docs.python.org/3/library/exceptions.html#RecursionError)
 
 10. **ImportError**
     - Is raised when the “from list” in `from ... import` has a name that cannot be found.
@@ -113,7 +113,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/ImportErrorSolve.py)
 
-    - Official Documentation of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError)
+    - Official Documentation of [`ImportError`](https://docs.python.org/3/library/exceptions.html#ImportError)
 
 11. **TypeError**
     - Raised when an operation or function is applied to an object of inappropriate type.
@@ -122,7 +122,7 @@
 
     - Examples can be found in [`/Examples`](./Examples/TypeErrorSolve.py)
 
-    - Official Documentation of [TypeError](https://docs.python.org/3/library/exceptions.html#TypeError)
+    - Official Documentation of [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError)
 
 12. **ValueError**
     - Raised when an operation or function receives an argument that has the right type but an inappropriate value
@@ -131,4 +131,4 @@
 
     - Examples can be found in [`/Examples`](./Examples/ValueErrorSolve.py)
 
-    - Official Documentation of [ValueError](https://docs.python.org/3/library/exceptions.html#ValueError)
+    - Official Documentation of [`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError)
