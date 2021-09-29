@@ -141,3 +141,12 @@
     - Examples can be found in [`/Examples`](./Examples/StopIterationSolve.py)
 
     - Official Documentation of [`StopIteration`](https://docs.python.org/3/library/exceptions.html#StopIteration)
+
+14. **KeyboardInterrupt**
+    - Raised when the user pressed <kbd>ctrl</kbd> + <kbd>c</kbd> on their keyboard
+
+    - There is no way of "fixing" this but you can bypass this by using a [`try-except`](https://docs.python.org/3/tutorial/errors.html#handling-exceptions) block
+
+    - Examples can be found in [`/Examples`](./Examples/KeyboardInterruptSolve.py)
+
+    - Official Documentation of [`StopIteration`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt)
