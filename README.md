@@ -149,4 +149,4 @@
 
     - Examples can be found in [`/Examples`](./Examples/KeyboardInterruptSolve.py)
 
-    - Official Documentation of [`StopIteration`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt)
+    - Official Documentation of [`KeyboardInterrupt`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt)
