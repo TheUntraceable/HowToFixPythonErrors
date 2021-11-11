@@ -2,6 +2,25 @@
 
 **This repo contains a README with an explanation as to why the error is happening and how to fix it.**
 
+## Contents
+
+- [How To Fix Python Errors](#how-to-fix-python-errors)
+  - [Contents](#contents)
+      - [1. **NameError**](#1-nameerror)
+      - [2. **IndexError**](#2-indexerror)
+      - [3. **IndentationError**](#3-indentationerror)
+      - [4. **ModuleNotFoundError**](#4-modulenotfounderror)
+      - [5. **KeyError**](#5-keyerror)
+      - [6. **ZeroDivisionError**](#6-zerodivisionerror)
+      - [7. **AttributeError**](#7-attributeerror)
+      - [8. **UnboundLocalError**](#8-unboundlocalerror)
+      - [9. **RecursionError**](#9-recursionerror)
+      - [10. **ImportError**](#10-importerror)
+      - [11. **TypeError**](#11-typeerror)
+      - [12. **ValueError**](#12-valueerror)
+      - [13. **StopIteration**](#13-stopiteration)
+      - [14. **KeyboardInterrupt**](#14-keyboardinterrupt)
+
 #### 1. **NameError**
 
 - This error is usually occuring because you haven't defined the variable and are just using it.
