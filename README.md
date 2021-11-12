@@ -1,152 +1,184 @@
-# **How To Fix Python Errors**
+# How To Fix Python Errors
 
-**This repo will contain a README with an explanation as to why the error is happening and how to fix it.**
+**This repo contains a README with an explanation as to why the error is happening and how to fix it.**
 
-1. **NameError**
+## Contents
 
-    - This error is usually occuring because you haven't defined the variable and are just using it.
+- [How To Fix Python Errors](#how-to-fix-python-errors)
+  - [Contents](#contents)
+    - [NameError](#nameerror)
+    - [IndexError](#indexerror)
+    - [IndentationError](#indentationerror)
+    - [ModuleNotFoundError](#modulenotfounderror)
+    - [KeyError](#keyerror)
+    - [ZeroDivisionError](#zerodivisionerror)
+    - [AttributeError](#attributeerror)
+    - [UnboundLocalError](#unboundlocalerror)
+    - [RecursionError](#recursionerror)
+    - [ImportError](#importerror)
+    - [TypeError](#typeerror)
+    - [ValueError](#valueerror)
+    - [StopIteration](#stopiteration)
+    - [KeyboardInterrupt](#keyboardinterrupt)
 
-    - To fix it you should define it like `VariableName = AnythingHere`.
+### NameError
 
-        > - **Note. You mustn't define VariableName as another non existant variable. This will get you back to step one.**
+- This error is usually occuring because you haven't defined the variable and are just using it.
 
-    - Examples can be found in [`/Examples`](./Examples/NameErrorSolve.py)
+- To fix it you should define it like `VariableName = AnythingHere`.
 
-    - Official Documentation of [`NameError`](https://docs.python.org/3/library/exceptions.html#NameError)
+    > - **Note. You mustn't define VariableName as another non existant variable. This will get you back to step one.**
 
-2. **IndexError**
-    - This error is usually raised when attempting to retrieve an index from a sequence and the index isn't found in the sequence.
+- Examples can be found in [`/Examples`](./Examples/NameErrorSolve.py)
 
-    - To fix make sure the index is a number inside the sequence
+- Official Documentation of [`NameError`](https://docs.python.org/3/library/exceptions.html#NameError)
 
-        > - **Note. in python counts from 0 therefore one will be 0, two will be 1, three will be 2 and so on.**
+### IndexError
 
-    - Examples can be found in [`/Examples`](./Examples/IndexErrorSolve.py)
+- This error is usually raised when attempting to retrieve an index from a sequence and the index isn't found in the sequence.
 
-    - Official Documentation of [`IndexError`](https://docs.python.org/3/library/exceptions.html#IndexError)
+- To fix make sure the index is a number inside the sequence
 
-3. **IndentationError**
-    - This error occurs when the code expects an indent or you indented a line too much than expected.
+    > - **Note. in python counts from 0 therefore one will be 0, two will be 1, three will be 2 and so on.**
 
-    - To fix it, get everything under a `:` in the same indent
+- Examples can be found in [`/Examples`](./Examples/IndexErrorSolve.py)
 
-        > - **Note: lines below a `:` need to be indented. If there is no `:` in the line above then it should be in the same indentation level as the line above**
+- Official Documentation of [`IndexError`](https://docs.python.org/3/library/exceptions.html#IndexError)
 
-    - Examples can be found in [`/Examples`](./Examples/IndentationErrorSolve.py)
+### IndentationError
 
-    - Note that using both tabs and spaces when indenting will raise TabError. stick to either spaces or tabs, not both
+- This error occurs when the code expects an indent or you indented a line too much than expected.
 
-    - Official Documentation of [`IndentationError`](https://docs.python.org/3/library/exceptions.html#IndentationError)
+- To fix it, get everything under a `:` in the same indent
 
-4. **ModuleNotFoundError**
-    - This specific error is raised when you try to import a module that is not installed / doesnt exist.
+    > - **Note: lines below a `:` need to be indented. If there is no `:` in the line above then it should be in the same indentation level as the line above**
 
-    - To fix it, search in [pypi.org](https://pypi.org) and see if it actually exists, and install it
+- Examples can be found in [`/Examples`](./Examples/IndentationErrorSolve.py)
 
-       > - **First, make sure you dont have any spelling mistakes in the import statement**
+- Note that using both tabs and spaces when indenting will raise TabError. stick to either spaces or tabs, not both
 
-    - Examples can be found in [`/Examples`](./Examples/ModuleNotFoundErrorSolve.py)
+- Official Documentation of [`IndentationError`](https://docs.python.org/3/library/exceptions.html#IndentationError)
 
-    - Official Documentation of [`ModuleNotFoundError`](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
+### ModuleNotFoundError
 
-5. **KeyError**
-    - This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
+- This specific error is raised when you try to import a module that is not installed / doesnt exist.
 
-    - To fix this,
+- To fix it, search in [pypi.org](https://pypi.org) and see if it actually exists, and install it
 
-        - make sure you have no spelling error in the key name
+   > - **First, make sure you dont have any spelling mistakes in the import statement**
 
-        - Add the key when creating the dict
+- Examples can be found in [`/Examples`](./Examples/ModuleNotFoundErrorSolve.py)
 
-        - If the above is not possible, try adding the key manually
+- Official Documentation of [`ModuleNotFoundError`](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
 
-        - If adding the key is not a choice, avoid the error by using  [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get) which would return None if not found
+### KeyError
 
-    - Examples can be found in [`/Examples`](./Examples/KeyErrorSolve.py)
+- This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
 
-    - Official Documentation of [`KeyError`](https://docs.python.org/3/library/exceptions.html#KeyError)
+- To fix this,
 
-6. **ZeroDivisionError**
-    - The error is kind of self-explanatory. You tried to divide something by 0 which is impossible.
+  - make sure you have no spelling error in the key name
 
-    - This usually happens when you divide something with a user input and the user inputs 0.
+  - Add the key when creating the dict
 
-    - To fix this, use an if statement to check if the number is 0 and dont divide if it is.
+  - If the above is not possible, try adding the key manually
 
-    - Examples can be found in [`/Examples`](./Examples/ZeroDivisionErrorSolve.py)
+  - If adding the key is not a choice, avoid the error by using  [`dict.get`](https://docs.python.org/3/library/stdtypes.html#dict.get) which would return None if not found
 
-    - Official Documentation of [`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
+- Examples can be found in [`/Examples`](./Examples/KeyErrorSolve.py)
 
-7. **AttributeError**
-    - AttributeError is raised when you try to access an attribute of an object that doesnt exist.
+- Official Documentation of [`KeyError`](https://docs.python.org/3/library/exceptions.html#KeyError)
 
-    - Fixing this error needs a proper understanding of classes and attributes.
+### ZeroDivisionError
 
-    - To fix this, check for spelling errors and see if that attribute actually exists
+- The error is kind of self-explanatory. You tried to divide something by 0 which is impossible.
 
-    - Examples can be found in [`/Examples`](./Examples/AttributeErrorSolve.py)
+- This usually happens when you divide something with a user input and the user inputs
 
-    - Official Documentation of [`AttributeError`](https://docs.python.org/3/library/exceptions.html#AttributeError)
+- To fix this, use an if statement to check if the number is 0 and dont divide if it is.
 
-8. **UnboundLocalError**
-    - This is raised when you reference a variable inside a function or method but no value is bound to that variable
+- Examples can be found in [`/Examples`](./Examples/ZeroDivisionErrorSolve.py)
 
-    - To fix it, see if you are using it before assigning something to it
+- Official Documentation of [`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
 
-    - Examples can be found in [`/Examples`](./Examples/UnboundLocalErrorSolve.py)
+### AttributeError
 
-    - Official Documentation of [`UnboundLocalError`](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
+- AttributeError is raised when you try to access an attribute of an object that doesnt exist.
 
-9. **RecursionError**
-    - Recursion error is raised when the maximum recursion depth AKA [`sys.getrecursionlimit`](https://docs.python.org/3/library/sys.html#sys.getrecursionlimit) exceeds
+- Fixing this error needs a proper understanding of classes and attributes.
 
-    - To fix it, add a base case to return early and not do any more recursion
+- To fix this, check for spelling errors and see if that attribute actually exists
 
-    - Examples can be found in [`/Examples`](./Examples/RecursionErrorSolve.py)
+- Examples can be found in [`/Examples`](./Examples/AttributeErrorSolve.py)
 
-    - Official Documentation of [`RecursionError`](https://docs.python.org/3/library/exceptions.html#RecursionError)
+- Official Documentation of [`AttributeError`](https://docs.python.org/3/library/exceptions.html#AttributeError)
 
-10. **ImportError**
-    - Is raised when the “from list” in `from ... import` has a name that cannot be found.
+### UnboundLocalError
 
-    - To fix it, check for spelling errors. Also check if the module exists by checking the relevent documentation
+- This is raised when you reference a variable inside a function or method but no value is bound to that variable
 
-    - Examples can be found in [`/Examples`](./Examples/ImportErrorSolve.py)
+- To fix it, see if you are using it before assigning something to it
 
-    - Official Documentation of [`ImportError`](https://docs.python.org/3/library/exceptions.html#ImportError)
+- Examples can be found in [`/Examples`](./Examples/UnboundLocalErrorSolve.py)
 
-11. **TypeError**
-    - Raised when an operation or function is applied to an object of inappropriate type.
+- Official Documentation of [`UnboundLocalError`](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
 
-    - To fix it, read the relevant documentation and find which type of object you should be passing in.
+### RecursionError
 
-    - Examples can be found in [`/Examples`](./Examples/TypeErrorSolve.py)
+- Recursion error is raised when the maximum recursion depth AKA [`sys.getrecursionlimit`](https://docs.python.org/3/library/sys.html#sys.getrecursionlimit) exceeds
 
-    - Official Documentation of [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError)
+- To fix it, add a base case to return early and not do any more recursion
 
-12. **ValueError**
-    - Raised when an operation or function receives an argument that has the right type but an inappropriate value
+- Examples can be found in [`/Examples`](./Examples/RecursionErrorSolve.py)
 
-    - To fix it, read the relevant documentation and see which kind of value is accepted.
+- Official Documentation of [`RecursionError`](https://docs.python.org/3/library/exceptions.html#RecursionError)
 
-    - Examples can be found in [`/Examples`](./Examples/ValueErrorSolve.py)
+### ImportError
 
-    - Official Documentation of [`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError)
+- Is raised when the “from list” in `from ... import` has a name that cannot be found.
 
-13. **StopIteration**
-    - This exception is raised to signal that there are no further items produced by the iterator or the generator is [`closed`](https://docs.python.org/3/reference/expressions.html#generator.close)
+- To fix it, check for spelling errors. Also check if the module exists by checking the relevent documentation
 
-    - This is not fixable. You would have to create a new generator object in order to bypass this
+- Examples can be found in [`/Examples`](./Examples/ImportErrorSolve.py)
 
-    - Examples can be found in [`/Examples`](./Examples/StopIterationSolve.py)
+- Official Documentation of [`ImportError`](https://docs.python.org/3/library/exceptions.html#ImportError)
 
-    - Official Documentation of [`StopIteration`](https://docs.python.org/3/library/exceptions.html#StopIteration)
+### TypeError
 
-14. **KeyboardInterrupt**
-    - Raised when the user pressed <kbd>ctrl</kbd> + <kbd>c</kbd> on their keyboard
+- Raised when an operation or function is applied to an object of inappropriate type.
 
-    - There is no way of "fixing" this but you can bypass this by using a [`try-except`](https://docs.python.org/3/tutorial/errors.html#handling-exceptions) block
+- To fix it, read the relevant documentation and find which type of object you should be passing in.
 
-    - Examples can be found in [`/Examples`](./Examples/KeyboardInterruptSolve.py)
+- Examples can be found in [`/Examples`](./Examples/TypeErrorSolve.py)
 
-    - Official Documentation of [`KeyboardInterrupt`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt)
+- Official Documentation of [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError)
+
+### ValueError
+
+- Raised when an operation or function receives an argument that has the right type but an inappropriate value
+
+- To fix it, read the relevant documentation and see which kind of value is accepted.
+
+- Examples can be found in [`/Examples`](./Examples/ValueErrorSolve.py)
+
+- Official Documentation of [`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError)
+
+### StopIteration
+
+- This exception is raised to signal that there are no further items produced by the iterator or the generator is [`closed`](https://docs.python.org/3/reference/expressions.html#generator.close)
+
+- This is not fixable. You would have to create a new generator object in order to bypass this
+
+- Examples can be found in [`/Examples`](./Examples/StopIterationSolve.py)
+
+- Official Documentation of [`StopIteration`](https://docs.python.org/3/library/exceptions.html#StopIteration)
+
+### KeyboardInterrupt
+
+- Raised when the user pressed <kbd>ctrl</kbd> + <kbd>c</kbd> on their keyboard
+
+- There is no way of "fixing" this but you can bypass this by using a [`try-except`](https://docs.python.org/3/tutorial/errors.html#handling-exceptions) block
+
+- Examples can be found in [`/Examples`](./Examples/KeyboardInterruptSolve.py)
+
+- Official Documentation of [`KeyboardInterrupt`](https://docs.python.org/3/library/exceptions.html#KeyboardInterrupt)
