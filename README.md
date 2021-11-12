@@ -6,22 +6,22 @@
 
 - [How To Fix Python Errors](#how-to-fix-python-errors)
   - [Contents](#contents)
-      - [1. **NameError**](#1-nameerror)
-      - [2. **IndexError**](#2-indexerror)
-      - [3. **IndentationError**](#3-indentationerror)
-      - [4. **ModuleNotFoundError**](#4-modulenotfounderror)
-      - [5. **KeyError**](#5-keyerror)
-      - [6. **ZeroDivisionError**](#6-zerodivisionerror)
-      - [7. **AttributeError**](#7-attributeerror)
-      - [8. **UnboundLocalError**](#8-unboundlocalerror)
-      - [9. **RecursionError**](#9-recursionerror)
-      - [10. **ImportError**](#10-importerror)
-      - [11. **TypeError**](#11-typeerror)
-      - [12. **ValueError**](#12-valueerror)
-      - [13. **StopIteration**](#13-stopiteration)
-      - [14. **KeyboardInterrupt**](#14-keyboardinterrupt)
+      - [**NameError**](#nameerror)
+      - [**IndexError**](#indexerror)
+      - [**IndentationError**](#indentationerror)
+      - [**ModuleNotFoundError**](#modulenotfounderror)
+      - [**KeyError**](#keyerror)
+      - [**ZeroDivisionError**](#zerodivisionerror)
+      - [**AttributeError**](#attributeerror)
+      - [**UnboundLocalError**](#unboundlocalerror)
+      - [**RecursionError**](#recursionerror)
+      - [**ImportError**](#importerror)
+      - [**TypeError**](#typeerror)
+      - [**ValueError**](#valueerror)
+      - [**StopIteration**](#stopiteration)
+      - [**KeyboardInterrupt**](#keyboardinterrupt)
 
-#### 1. **NameError**
+#### **NameError**
 
 - This error is usually occuring because you haven't defined the variable and are just using it.
 
@@ -33,7 +33,7 @@
 
 - Official Documentation of [`NameError`](https://docs.python.org/3/library/exceptions.html#NameError)
 
-#### 2. **IndexError**
+#### **IndexError**
 
 - This error is usually raised when attempting to retrieve an index from a sequence and the index isn't found in the sequence.
 
@@ -45,7 +45,7 @@
 
 - Official Documentation of [`IndexError`](https://docs.python.org/3/library/exceptions.html#IndexError)
 
-#### 3. **IndentationError**
+#### **IndentationError**
 
 - This error occurs when the code expects an indent or you indented a line too much than expected.
 
@@ -59,7 +59,7 @@
 
 - Official Documentation of [`IndentationError`](https://docs.python.org/3/library/exceptions.html#IndentationError)
 
-#### 4. **ModuleNotFoundError**
+#### **ModuleNotFoundError**
 
 - This specific error is raised when you try to import a module that is not installed / doesnt exist.
 
@@ -71,7 +71,7 @@
 
 - Official Documentation of [`ModuleNotFoundError`](https://docs.python.org/3/library/exceptions.html#ModuleNotFoundError)
 
-#### 5. **KeyError**
+#### **KeyError**
 
 - This type of error is usually raised when trying to access a non-existent key of a [dict](https://docs.python.org/3/library/stdtypes.html#dict)
 
@@ -89,11 +89,11 @@
 
 - Official Documentation of [`KeyError`](https://docs.python.org/3/library/exceptions.html#KeyError)
 
-#### 6. **ZeroDivisionError**
+#### **ZeroDivisionError**
 
 - The error is kind of self-explanatory. You tried to divide something by 0 which is impossible.
 
-- This usually happens when you divide something with a user input and the user inputs 0.
+- This usually happens when you divide something with a user input and the user inputs
 
 - To fix this, use an if statement to check if the number is 0 and dont divide if it is.
 
@@ -101,7 +101,7 @@
 
 - Official Documentation of [`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError)
 
-#### 7. **AttributeError**
+#### **AttributeError**
 
 - AttributeError is raised when you try to access an attribute of an object that doesnt exist.
 
@@ -113,7 +113,7 @@
 
 - Official Documentation of [`AttributeError`](https://docs.python.org/3/library/exceptions.html#AttributeError)
 
-#### 8. **UnboundLocalError**
+#### **UnboundLocalError**
 
 - This is raised when you reference a variable inside a function or method but no value is bound to that variable
 
@@ -123,7 +123,7 @@
 
 - Official Documentation of [`UnboundLocalError`](https://docs.python.org/3/library/exceptions.html#UnboundLocalError)
 
-#### 9. **RecursionError**
+#### **RecursionError**
 
 - Recursion error is raised when the maximum recursion depth AKA [`sys.getrecursionlimit`](https://docs.python.org/3/library/sys.html#sys.getrecursionlimit) exceeds
 
@@ -133,7 +133,7 @@
 
 - Official Documentation of [`RecursionError`](https://docs.python.org/3/library/exceptions.html#RecursionError)
 
-#### 10. **ImportError**
+#### **ImportError**
 
 - Is raised when the “from list” in `from ... import` has a name that cannot be found.
 
@@ -143,7 +143,7 @@
 
 - Official Documentation of [`ImportError`](https://docs.python.org/3/library/exceptions.html#ImportError)
 
-#### 11. **TypeError**
+#### **TypeError**
 
 - Raised when an operation or function is applied to an object of inappropriate type.
 
@@ -153,7 +153,7 @@
 
 - Official Documentation of [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError)
 
-#### 12. **ValueError**
+#### **ValueError**
 
 - Raised when an operation or function receives an argument that has the right type but an inappropriate value
 
@@ -163,7 +163,7 @@
 
 - Official Documentation of [`ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError)
 
-#### 13. **StopIteration**
+#### **StopIteration**
 
 - This exception is raised to signal that there are no further items produced by the iterator or the generator is [`closed`](https://docs.python.org/3/reference/expressions.html#generator.close)
 
@@ -173,7 +173,7 @@
 
 - Official Documentation of [`StopIteration`](https://docs.python.org/3/library/exceptions.html#StopIteration)
 
-#### 14. **KeyboardInterrupt**
+#### **KeyboardInterrupt**
 
 - Raised when the user pressed <kbd>ctrl</kbd> + <kbd>c</kbd> on their keyboard
 
